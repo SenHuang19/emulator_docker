@@ -112,7 +112,7 @@ class TestCase(object):
         '''
         
         self.__init__()
-        self.start_time = u
+        self.start_time = float(u)
 
     def get_step(self):
         '''Returns the current simulation step in seconds.'''

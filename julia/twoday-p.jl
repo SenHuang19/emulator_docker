@@ -40,7 +40,7 @@ println("Default Simulation Step:\t$step_def")
 # RUN TEST CASE
 #----------
 println("Resetting test case if needed.")
-res = HTTP.put("$url/reset")
+res = HTTP.put("$url/reset",["Content-Type" => "application/json"], JSON.json(Dict("start" => 0)))
 
 # Set simulation step
 println("Setting simulation step to $step")

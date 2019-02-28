@@ -41,7 +41,7 @@ println("Default Simulation Step:\t$step_def")
 start = Dates.now()
 # Reset test case
 println("Resetting test case if needed.")
-# res = HTTP.put("$url/reset", ["Content-Type" => "application/json"], JSON.json(0))
+res = HTTP.put("$url/reset",["Content-Type" => "application/json"], JSON.json(Dict("start" => 0)))
 println("Running test case ...")
 # Set simulation step
 println("Setting simulation step to $step")
