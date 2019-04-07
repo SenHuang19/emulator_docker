@@ -21,11 +21,13 @@ length = 48 * 3600
 step = 300
 # ---------------
 
+
 # GET TEST INFORMATION
 # --------------------
 println("TEST CASE INFORMATION ------------- \n")
+
 # Test case name
-name = JSON.parse(String(HTTP.get("$url/name").body))
+name = JSON.parse(String(HTTP.get("$url/name";retries=4).body))
 println("Name:\t\t\t$name")
 # Inputs available
 inputs = JSON.parse(String(HTTP.get("$url/inputs").body))
@@ -48,9 +50,9 @@ res = HTTP.put("$url/step",["Content-Type" => "application/json"], JSON.json(Dic
 println("Running test case ...")
 
 
+		
 # simulation loop
-for i = 1:convert(Int, floor(length/step))
-    sleep(1)
+for i = 1:convert(Int, floor(length/step))   
     if i<2
     # Initialize u
        u = PID.initialize()
@@ -59,8 +61,8 @@ for i = 1:convert(Int, floor(length/step))
        u = PID.compute_control(y)
     end
     # Advance in simulation
-    global y = JSON.parse(String(HTTP.post("$url/advance", ["Content-Type" => "application/json","connecttimeout"=>30.0], JSON.json(u)).body))
-
+    res=HTTP.post("$url/advance", ["Content-Type" => "application/json"], JSON.json(u);retry_non_idempotent=true).body
+    global y = JSON.parse(String(res))
 end
 println("Test case complete.")
 

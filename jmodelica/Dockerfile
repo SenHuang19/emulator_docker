@@ -16,14 +16,4 @@ WORKDIR $HOME
 
 RUN pip install --user flask-restful
 
-RUN mkdir models && \
-    mkdir doc
-
-
-COPY ${testcase}/models/wrapped.fmu models/
-COPY ${testcase}/doc/ doc/
-COPY ${testcase}/config.py ./
-COPY restapi.py ./
-COPY testcase.py ./
-
 

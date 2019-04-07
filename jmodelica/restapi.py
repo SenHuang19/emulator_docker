@@ -2,7 +2,6 @@
 """
 This module implements the REST API used to interact with the test case.  
 The API is implemented using the ``flask`` package.  
-
 """
 
 # GENERAL PACKAGE IMPORT

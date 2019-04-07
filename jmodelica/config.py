@@ -20,8 +20,8 @@ def get_config():
         
     config = {
     # Enter configuration information
-    'fmupath'  : 'models/wrapped.fmu',                   
-    'step'     : 3600
+    'fmupath'  : '/usr/testcases/testcase3/models/wrapped.fmu',                
+    'step'     : 60
     }
     
     return config

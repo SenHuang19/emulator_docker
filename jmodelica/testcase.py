@@ -3,7 +3,6 @@
 This module defines the API to the test case used by the REST requests to 
 perform functions such as advancing the simulation, retreiving test case 
 information, and calculating and reporting results.
-
 """
 
 from pyfmi import load_fmu
