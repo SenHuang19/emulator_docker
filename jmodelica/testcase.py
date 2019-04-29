@@ -3,7 +3,6 @@
 This module defines the API to the test case used by the REST requests to 
 perform functions such as advancing the simulation, retreiving test case 
 information, and calculating and reporting results.
-
 """
 
 from pyfmi import load_fmu
@@ -112,7 +111,7 @@ class TestCase(object):
         '''
         
         self.__init__()
-        self.start_time = u
+        self.start_time = float(u)
 
     def get_step(self):
         '''Returns the current simulation step in seconds.'''

@@ -2,7 +2,6 @@
 """
 This module implements the REST API used to interact with the test case.  
 The API is implemented using the ``flask`` package.  
-
 """
 
 # GENERAL PACKAGE IMPORT
@@ -32,6 +31,9 @@ case = TestCase()
 # ``step`` interface
 parser_step = reqparse.RequestParser()
 parser_step.add_argument('step')
+# ``reset`` interface
+parser_reset = reqparse.RequestParser()
+parser_reset.add_argument('start')
 # ``advance`` interface
 parser_advance = reqparse.RequestParser()
 for key in case.u.keys():
@@ -47,7 +49,7 @@ class Advance(Resource):
         '''POST request with input data to advance the simulation one step 
         and receive current measurements.'''
         u = parser_advance.parse_args()
-        print u
+ #       print u
         y = case.advance(u)
         print y
         return y
@@ -57,9 +59,11 @@ class Reset(Resource):
     
     def put(self):
         '''PUT request to reset the test.'''
-        u = parser_advance.parse_args()
+        u = parser_reset.parse_args()
+        print 'yes'
         print u
-        case.reset(u)
+        start=u['start']
+        case.reset(start)
         return 'Testcase reset.'
 
         

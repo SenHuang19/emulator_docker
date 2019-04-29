@@ -1,4 +1,4 @@
-BOPTEST Test Case 2
+BOPTEST Test Case 3
 ===================
 This test case is a single zone VAV system.
 

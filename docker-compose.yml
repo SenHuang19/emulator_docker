@@ -1,6 +1,15 @@
-version: '3'
+version: '3.1'
 
 services:
+  jmodelica:
+    build: './jmodelica'
+    volumes: 
+      - ./jmodelica:/usr/testcases    
+    ports:
+     - "127.0.0.1:5000:5000"
+    image: "boptest_testcase"
+    command: python /usr/testcases/restapi.py
+    network_mode: host
   julia:
     build: './julia'
     volumes: 
