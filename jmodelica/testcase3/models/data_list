@@ -1,0 +1,138 @@
+name,name in the emulator,variable_type,unit,description
+,mod.floor1.Pfan,measurement,W,fan power in floor 1
+,mod.floor2.Pfan,measurement,W,fan power in floor 2
+,mod.floor3.Pfan,measurement,W,fan power in floor 3
+,mod.PChi,measurement,W,chiller power
+,mod.PPum,measurement,W,pump power
+zonetemp_f1z1,mod.floor1.Zon1.TRooAir,measurement,Kelvin,Zone temperature in floor 1 zone 1
+zonetemp_f1z2,mod.floor1.Zon2.TRooAir,measurement,Kelvin,Zone temperature in floor 1 zone 2
+zonetemp_f1z3,mod.floor1.Zon3.TRooAir,measurement,Kelvin,Zone temperature in floor 1 zone 3
+zonetemp_f1z4,mod.floor1.Zon4.TRooAir,measurement,Kelvin,Zone temperature in floor 1 zone 4
+zonetemp_f1z5,mod.floor1.Zon5.TRooAir,measurement,Kelvin,Zone temperature in floor 1 zone 5
+zonetemp_f2z1,mod.floor2.Zon1.TRooAir,measurement,Kelvin,Zone temperature in floor 2 zone 1
+zonetemp_f2z2,mod.floor2.Zon2.TRooAir,measurement,Kelvin,Zone temperature in floor 2 zone 2
+zonetemp_f2z3,mod.floor2.Zon3.TRooAir,measurement,Kelvin,Zone temperature in floor 2 zone 3
+zonetemp_f2z4,mod.floor2.Zon4.TRooAir,measurement,Kelvin,Zone temperature in floor 2 zone 4
+zonetemp_f2z5,mod.floor2.Zon5.TRooAir,measurement,Kelvin,Zone temperature in floor 2 zone 5
+zonetemp_f3z1,mod.floor3.Zon1.TRooAir,measurement,Kelvin,Zone temperature in floor 3 zone 1
+zonetemp_f3z2,mod.floor3.Zon2.TRooAir,measurement,Kelvin,Zone temperature in floor 3 zone 2
+zonetemp_f3z3,mod.floor3.Zon3.TRooAir,measurement,Kelvin,Zone temperature in floor 3 zone 3
+zonetemp_f3z4,mod.floor3.Zon4.TRooAir,measurement,Kelvin,Zone temperature in floor 3 zone 4
+zonetemp_f3z5,mod.floor3.Zon5.TRooAir,measurement,Kelvin,Zone temperature in floor 3 zone 5
+outside_temp,mod.TOutDryBul,measurement,Kelvin,Outside temperature
+zonedischargetemp_f1z1,mod.floor1.Zon1.TSupAir,measurement,Kelvin,Discharge temperature in floor 1 zone 1
+zonedischargetemp_f1z2,mod.floor1.Zon2.TSupAir,measurement,Kelvin,Discharge temperature in floor 1 zone 2
+zonedischargetemp_f1z3,mod.floor1.Zon3.TSupAir,measurement,Kelvin,Discharge temperature in floor 1 zone 3
+zonedischargetemp_f1z4,mod.floor1.Zon4.TSupAir,measurement,Kelvin,Discharge temperature in floor 1 zone 4
+zonedischargetemp_f1z5,mod.floor1.Zon5.TSupAir,measurement,Kelvin,Discharge temperature in floor 1 zone 5
+zonedischargetemp_f2z1,mod.floor2.Zon1.TSupAir,measurement,Kelvin,Discharge temperature in floor 2 zone 1
+zonedischargetemp_f2z2,mod.floor2.Zon2.TSupAir,measurement,Kelvin,Discharge temperature in floor 2 zone 2
+zonedischargetemp_f2z3,mod.floor2.Zon3.TSupAir,measurement,Kelvin,Discharge temperature in floor 2 zone 3
+zonedischargetemp_f2z4,mod.floor2.Zon4.TSupAir,measurement,Kelvin,Discharge temperature in floor 2 zone 4
+zonedischargetemp_f2z5,mod.floor2.Zon5.TSupAir,measurement,Kelvin,Discharge temperature in floor 2 zone 5
+zonedischargetemp_f3z1,mod.floor3.Zon1.TSupAir,measurement,Kelvin,Discharge temperature in floor 3 zone 1
+zonedischargetemp_f3z2,mod.floor3.Zon2.TSupAir,measurement,Kelvin,Discharge temperature in floor 3 zone 2
+zonedischargetemp_f3z3,mod.floor3.Zon3.TSupAir,measurement,Kelvin,Discharge temperature in floor 3 zone 3
+zonedischargetemp_f3z4,mod.floor3.Zon4.TSupAir,measurement,Kelvin,Discharge temperature in floor 3 zone 4
+zonedischargetemp_f3z5,mod.floor3.Zon5.TSupAir,measurement,Kelvin,Discharge temperature in floor 3 zone 5
+zoneflow_f1z1,mod.floor1.Zon1.mSupAir,measurement,Kg/s,zone flow in floor 1 zone 1
+zoneflow_f1z2,mod.floor1.Zon2.mSupAir,measurement,Kg/s,zone flow in floor 1 zone 2
+zoneflow_f1z3,mod.floor1.Zon3.mSupAir,measurement,Kg/s,zone flow in floor 1 zone 3
+zoneflow_f1z4,mod.floor1.Zon4.mSupAir,measurement,Kg/s,zone flow in floor 1 zone 4
+zoneflow_f1z5,mod.floor1.Zon5.mSupAir,measurement,Kg/s,zone flow in floor 1 zone 5
+zoneflow_f2z1,mod.floor2.Zon1.mSupAir,measurement,Kg/s,zone flow in floor 2 zone 1
+zoneflow_f2z2,mod.floor2.Zon2.mSupAir,measurement,Kg/s,zone flow in floor 2 zone 2
+zoneflow_f2z3,mod.floor2.Zon3.mSupAir,measurement,Kg/s,zone flow in floor 2 zone 3
+zoneflow_f2z4,mod.floor2.Zon4.mSupAir,measurement,Kg/s,zone flow in floor 2 zone 4
+zoneflow_f2z5,mod.floor2.Zon5.mSupAir,measurement,Kg/s,zone flow in floor 2 zone 5
+zoneflow_f3z1,mod.floor3.Zon1.mSupAir,measurement,Kg/s,zone flow in floor 3 zone 1
+zoneflow_f3z2,mod.floor3.Zon2.mSupAir,measurement,Kg/s,zone flow in floor 3 zone 2
+zoneflow_f3z3,mod.floor3.Zon3.mSupAir,measurement,Kg/s,zone flow in floor 3 zone 3
+zoneflow_f3z4,mod.floor3.Zon4.mSupAir,measurement,Kg/s,zone flow in floor 3 zone 4
+zoneflow_f3z5,mod.floor3.Zon5.mSupAir,measurement,Kg/s,zone flow in floor 3 zone 5
+ahusupplytemp_f3,mod.floor3.TSupAir,measurement,Kelvin,AHU supply temp in floor 1
+ahusupplytemp_f2,mod.floor2.TSupAir,measurement,Kelvin,AHU supply temp in floor 2
+ahusupplytemp_f1,mod.floor1.TSupAir,measurement,Kelvin,AHU supply temp in floor 3
+ahumixedtemp_f3,mod.floor3.TMixAir,measurement,Kelvin,AHU mixed temp in floor 1
+ahumixedtemp_f2,mod.floor3.TMixAir,measurement,Kelvin,AHU mixed temp in floor 2
+ahumixedtemp_f1,mod.floor1.TMixAir,measurement,Kelvin,AHU mixed temp in floor 3
+ahureturntemp_f3,mod.floor3.TRetAir,measurement,Kelvin,Return temp in floor 1
+ahureturntemp_f2,mod.floor2.TRetAir,measurement,Kelvin,Return temp in floor 2
+ahureturntemp_f1,mod.floor1.TRetAir,measurement,Kelvin,Return temp in floor 3
+ahuflow_f1,mod.floor1.mSupAir,measurement,Kg/s,Total flow in floor 1
+ahuflow_f2,mod.floor2.mSupAir,measurement,Kg/s,Total flow in floor 2
+ahuflow_f3,mod.floor3.mSupAir,measurement,Kg/s,Total flow in floor 3
+set_ahudamper_f2,"mod.floor2.Zon1.oveAirFloRat
+mod.floor2.Zon2.oveAirFloRat
+mod.floor2.Zon3.oveAirFloRat
+mod.floor2.Zon4.oveAirFloRat
+mod.floor2.Zon5.oveAirFloRat",setpoint,none,AHU damper in floor 1
+set_zoneflow_f2z2,mod.floor2.Zon2.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 2 zone 2
+set_zoneflow_f2z3,mod.floor2.Zon3.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 2 zone 3
+set_zoneflow_f2z4,mod.floor2.Zon4.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 2 zone 4
+set_zoneflow_f2z5,mod.floor2.Zon5.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 2 zone 5
+set_ahudamper_f1,"mod.floor1.Zon1.oveAirFloRat
+mod.floor1.Zon2.oveAirFloRat
+mod.floor1.Zon3.oveAirFloRat
+mod.floor1.Zon4.oveAirFloRat
+mod.floor1.Zon5.oveAirFloRat",setpoint,none,AHU damper in floor 1
+set_zoneflow_f1z1,mod.floor2.Zon1.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 1 zone 1
+set_zoneflow_f1z2,mod.floor2.Zon2.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 1 zone 2
+set_zoneflow_f1z3,mod.floor2.Zon3.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 1 zone 3
+set_zoneflow_f1z4,mod.floor2.Zon4.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 1 zone 4
+set_zoneflow_f1z5,mod.floor2.Zon5.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 1 zone 5
+set_ahudamper_f3,"mod.floor3.Zon1.oveAirFloRat
+mod.floor3.Zon2.oveAirFloRat
+mod.floor3.Zon3.oveAirFloRat
+mod.floor3.Zon4.oveAirFloRat
+mod.floor3.Zon5.oveAirFloRat",setpoint,none,AHU damper in floor 3
+set_zoneflow_f3z1,mod.floor2.Zon1.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 3 zone 1
+set_zoneflow_f3z2,mod.floor2.Zon2.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 3 zone 2
+set_zoneflow_f3z3,mod.floor2.Zon3.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 3 zone 3
+set_zoneflow_f3z4,mod.floor2.Zon4.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 3 zone 4
+set_zoneflow_f3z5,mod.floor2.Zon5.oveOutAirFra,setpoint,Kg/s,zone flow setpoint in floor 3 zone 5
+set_ahusupplytemp_f1,"mod.floor1.Zon1.con.oveTSetSupAir
+mod.floor1.Zon2.con.oveTSetSupAir
+mod.floor1.Zon3.con.oveTSetSupAir
+mod.floor1.Zon4.con.oveTSetSupAir
+mod.floor1.Zon5.con.oveTSetSupAir",setpoint,Kelvin,AHU supply temp setpoint in floor 1
+set_ahusupplytemp_f2,"mod.floor2.Zon1.con.oveTSetSupAir
+mod.floor2.Zon2.con.oveTSetSupAir
+mod.floor2.Zon3.con.oveTSetSupAir
+mod.floor2.Zon4.con.oveTSetSupAir
+mod.floor2.Zon5.con.oveTSetSupAir",setpoint,Kelvin,AHU supply temp setpoint in floor 2
+set_ahusupplytemp_f3,"mod.floor3.Zon1.con.oveTSetSupAir
+mod.floor3.Zon2.con.oveTSetSupAir
+mod.floor3.Zon3.con.oveTSetSupAir
+mod.floor3.Zon4.con.oveTSetSupAir
+mod.floor3.Zon5.con.oveTSetSupAir",setpoint,Kelvin,AHU supply temp setpoint in floor 3
+set_zonedischargetemp_f2z1,,setpoint,Kelvin,Discharge temp setpoint in floor 2 zone 1
+set_zonedischargetemp_f2z2,,setpoint,Kelvin,Discharge temp setpoint in floor 2 zone 2
+set_zonedischargetemp_f2z3,,setpoint,Kelvin,Discharge temp setpoint in floor 2 zone 3
+set_zonedischargetemp_f2z4,,setpoint,Kelvin,Discharge temp setpoint in floor 2 zone 4
+set_zonedischargetemp_f2z5,,setpoint,Kelvin,Discharge temp setpoint in floor 2 zone 5
+set_zonedischargetemp_f1z1,,setpoint,Kelvin,Discharge temp setpoint in floor 1 zone 1
+set_zonedischargetemp_f1z2,,setpoint,Kelvin,Discharge temp setpoint in floor 1 zone 2
+set_zonedischargetemp_f1z3,,setpoint,Kelvin,Discharge temp setpoint in floor 1 zone 3
+set_zonedischargetemp_f1z4,,setpoint,Kelvin,Discharge temp setpoint in floor 1 zone 4
+set_zonedischargetemp_f1z5,,setpoint,Kelvin,Discharge temp setpoint in floor 1 zone 5
+set_zonedischargetemp_f3z1,,setpoint,Kelvin,Discharge temp setpoint in floor 3 zone 1
+set_zonedischargetemp_f3z2,,setpoint,Kelvin,Discharge temp setpoint in floor 3 zone 2
+set_zonedischargetemp_f3z3,,setpoint,Kelvin,Discharge temp setpoint in floor 3 zone 3
+set_zonedischargetemp_f3z4,,setpoint,Kelvin,Discharge temp setpoint in floor 3 zone 4
+set_zonedischargetemp_f3z5,,setpoint,Kelvin,Discharge temp setpoint in floor 3 zone 5
+set_reheat_f2z1,mod.floor2.Zon1.oveHeaOut,setpoint,none,Reheat setpoint in floor 2 zone 1
+set_reheat_f2z2,mod.floor2.Zon2.oveHeaOut,setpoint,none,Reheat setpoint in floor 2 zone 2
+set_reheat_f2z3,mod.floor2.Zon3.oveHeaOut,setpoint,none,Reheat setpoint in floor 2 zone 3
+set_reheat_f2z4,mod.floor2.Zon4.oveHeaOut,setpoint,none,Reheat setpoint in floor 2 zone 4
+set_reheat_f2z5,mod.floor2.Zon5.oveHeaOut,setpoint,none,Reheat setpoint in floor 2 zone 5
+set_reheat_f1z1,mod.floor1.Zon1.oveHeaOut,setpoint,none,Reheat setpoint in floor 1 zone 1
+set_reheat_f1z2,mod.floor1.Zon2.oveHeaOut,setpoint,none,Reheat setpoint in floor 1 zone 2
+set_reheat_f1z3,mod.floor1.Zon3.oveHeaOut,setpoint,none,Reheat setpoint in floor 1 zone 3
+set_reheat_f1z4,mod.floor1.Zon4.oveHeaOut,setpoint,none,Reheat setpoint in floor 1 zone 4
+set_reheat_f1z5,mod.floor1.Zon5.oveHeaOut,setpoint,none,Reheat setpoint in floor 1 zone 5
+set_reheat_f3z1,mod.floor3.Zon1.oveHeaOut,setpoint,none,Reheat setpoint in floor 3 zone 1
+set_reheat_f3z2,mod.floor3.Zon2.oveHeaOut,setpoint,none,Reheat setpoint in floor 3 zone 2
+set_reheat_f3z3,mod.floor3.Zon3.oveHeaOut,setpoint,none,Reheat setpoint in floor 3 zone 3
+set_reheat_f3z4,mod.floor3.Zon4.oveHeaOut,setpoint,none,Reheat setpoint in floor 3 zone 4
+set_reheat_f3z5,mod.floor3.Zon5.oveHeaOut,setpoint,none,Reheat setpoint in floor 3 zone 5
