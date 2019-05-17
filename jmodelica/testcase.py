@@ -46,7 +46,7 @@ class TestCase(object):
         self.u_store = copy.deepcopy(self.u)
         # Set default options
         self.options = self.fmu.simulate_options()
-        self.options['CVode_options']['rtol'] = 1e-6 
+#        self.options['CVode_options']['rtol'] = 1e-6 
         # Set default communication step
         self.set_step(con['step'])
         # Set initial simulation start
