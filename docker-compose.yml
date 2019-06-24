@@ -2,9 +2,9 @@ version: '3.1'
 
 services:
   jmodelica:
-    build: './jmodelica'
-    volumes: 
-      - ./jmodelica:/usr/testcases    
+    build: './jmodelica' 
+      args:
+        testcase: testcase2
     ports:
      - "127.0.0.1:5000:5000"
     image: "boptest_testcase"
@@ -12,7 +12,7 @@ services:
     network_mode: host
   julia:
     build: './julia'
-    volumes: 
-      - ./julia:/usr/myapp
+      args:
+        Script: ${Script}
     command: julia /usr/myapp/${Script}.jl
     network_mode: host
