@@ -2,7 +2,8 @@ version: '3.1'
 
 services:
   jmodelica:
-    build: './jmodelica' 
+    build: 
+      context: './jmodelica'
       args:
         testcase: testcase2
     ports:
@@ -11,8 +12,6 @@ services:
     command: python /usr/testcases/restapi.py
     network_mode: host
   julia:
-    build: './julia'
-      args:
-        Script: ${Script}
-    command: julia /usr/myapp/${Script}.jl
+    build: ./julia
+    command: julia /usr/myapp/szvav-sup.jl
     network_mode: host
